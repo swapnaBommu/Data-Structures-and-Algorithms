@@ -67,5 +67,22 @@ public class DeleteNode {
     } 
 
     //Recursive Approach
-    
+    private static Node<Integer> deleteNodeRecursive(Node<Integer> head, int position){
+        int length = 0;
+		Node<Integer> temp = head;
+		while(temp != null) {
+			length++;
+			temp = temp.next;
+		}
+		if(head == null && position > length) {
+			return head;
+		}
+		if(position == 0) {
+			return head.next;
+		}else {
+			head.next = deleteNodeRecursive(head.next,position - 1);
+			return head;
+		}
+    }
+
 }
