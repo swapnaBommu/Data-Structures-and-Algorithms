@@ -1,5 +1,5 @@
 /*selection sort problem */
-package sorting problems;
+package sortingProblems;
 
 public class SelectionSort {
     public static void main(String args[]){
