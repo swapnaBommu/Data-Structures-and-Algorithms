@@ -27,6 +27,7 @@ Following is the Node class already written for the Linked List
 
 */ 
 package LinkedLists;
+
 class Node<T> {
 
 	T data;

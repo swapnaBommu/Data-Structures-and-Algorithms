@@ -1,3 +1,4 @@
+package LinkedLists;
 /* Given a singly linked list, a position and an element, 
 the task is to write a program to insert that element in a 
 linked list at a given position. 
